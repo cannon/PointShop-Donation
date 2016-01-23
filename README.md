@@ -22,7 +22,9 @@ Pay with Stripe, on the same webpage. No going off and needing to sign in on a t
 
 ![Total donation](http://i.imgur.com/HaXnVcG.png)
 
-Be remembered when you come back, see your total cumulative donation.
+Be remembered when you come back. See your total cumulative donation.
+
+---
 
 Note that accepting donations does come with some risk. Malicious/fradulent users can create chargebacks which incurr fines against you. This typically happens with less than %1 of payments, but nonetheless __I am not responsible for any loss or damage which may come from using this software.__ I also recommend frequently backing up your MySQL database to protect against data loss.
 
