@@ -4,8 +4,17 @@ A simple donation processing system for Garry's Mod servers with PointShop. User
 When users make payments, a running donation_total is kept on their account. Users who make numerous small payments will be credited identically to users who make one large payment of the same value. Also, if POINTS_PER_DOLLAR is increased, any user who donates again will be retroactively credited as if they donated their entire total_donation with the current POINTS_PER_DOLLAR setting.
 
 ##Super easy for users
-![Sign in](http://i.imgur.com/jYrphzr.png)
+![Sign in](http://i.imgur.com/UWeKj7f.png)
 Sign in through Steam and see your own profile. No mucking about with Steam IDs!
+
+![Choose amount](http://i.imgur.com/4hrjOTW.png)
+Choose from 2 suggested amounts or enter your own amount to donate.
+
+![Stripe](http://i.imgur.com/vasFTmW.png)
+Pay with Stripe, on the same webpage. No going off and needing to sign in on a third party site like PayPal.
+
+![Total donation](http://i.imgur.com/HaXnVcG.png)
+Be remembered when you come back, see your total cumulative donation.
 
 Note that accepting donations does come with some risk. Malicious/fradulent users can create chargebacks which incurr fines against you. This typically happens with less than %1 of payments, but nonetheless _I am not responsible for any loss or damage which may come from using this software._ I also recommend frequently backing up your MySQL database to protect against data loss.
 
