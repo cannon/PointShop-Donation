@@ -16,17 +16,15 @@ Choose from 2 suggested amounts or enter your own amount to donate.
 
 ---
 
-![Stripe](http://i.imgur.com/vasFTmW.png)
+![Stripe](http://i.imgur.com/ov3xRNS.png)
 
-Pay with Stripe, on the same webpage. No going off and needing to sign in on a third party site like PayPal.
-
-![Total donation](http://i.imgur.com/HaXnVcG.png)
-
-Be remembered when you come back. See your total cumulative donation.
+Pay with Stripe, on the same webpage. No going off and needing to sign in on a third party site like PayPal. Be remembered when you come back - see your total cumulative donation.
 
 ---
 
 Note that accepting donations does come with some risk. Malicious/fradulent users can create chargebacks which incurr fines against you. This typically happens with less than %1 of payments, but nonetheless __I am not responsible for any loss or damage which may come from using this software.__ I also recommend frequently backing up your MySQL database to protect against data loss.
+
+---
 
 Are you ready to make money off your Garry's Mod server? Well, here's how you install it:
 
