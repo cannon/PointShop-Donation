@@ -3,11 +3,15 @@ A simple donation processing system for Garry's Mod servers with PointShop. User
 
 When users make payments, a running donation_total is kept on their account. Users who make numerous small payments will be credited identically to users who make one large payment of the same value. Also, if POINTS_PER_DOLLAR is increased, any user who donates again will be retroactively credited as if they donated their entire total_donation with the current POINTS_PER_DOLLAR setting.
 
-Note that accepting donations does come with some risk. Malicious/fradulent users can create chargebacks which incurr fines against you. This typically happens with less than %1 of payments, but nonetheless _I am not responsible for any loss or damage which may come from using this software._
+#Super easy for users
+[Sign in](http://i.imgur.com/jYrphzr.png)
+Sign in through Steam and see your own profile. No mucking about with Steam IDs!
+
+Note that accepting donations does come with some risk. Malicious/fradulent users can create chargebacks which incurr fines against you. This typically happens with less than %1 of payments, but nonetheless _I am not responsible for any loss or damage which may come from using this software._ I also recommend frequently backing up your MySQL database to protect against data loss.
 
 Are you ready to make money off your Garry's Mod server? Well, here's how you install it:
 
-* You need a web server with PHP and MySQL. For windows users, I recommend XAMPP.
+* You need a web server with PHP and MySQL. I recommend XAMPP.
 * Your web server should also be HTTPS secured, to protect users against some man-in-the-middle attacks.
 * Put the contents of the 'php' folder into a directory named 'donate' in your web server's htdocs root.
 * Fill out config.php. You need to sign up for [Stripe](https://dashboard.stripe.com/dashboard) to get your API keys and start accepting payments!
