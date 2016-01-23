@@ -30,9 +30,13 @@ Note that accepting donations does come with some risk. Malicious/fradulent user
 Are you ready to make money off your Garry's Mod server?
 
 * You need a web server with PHP and MySQL. I recommend XAMPP.
+
 * Your web server should also be HTTPS secured, to protect users against some man-in-the-middle attacks.
+
 * Put the contents of the 'php' folder into a directory named 'donate' in your web server's htdocs root.
-* Fill out config.php. You need to sign up for [Stripe](https://dashboard.stripe.com/dashboard) to get your API keys and start accepting payments! * Visit yoursite.com/donate once to create the data tables.
+
+* Fill out config.php. You need to sign up for [Stripe](https://dashboard.stripe.com/dashboard) to get your API keys and start accepting payments!
+* Visit yoursite.com/donate once to create the data tables.
 
 * On your Garry's Mod server, you need to install the  [tmysql4](http://blackawps-glua-modules.googlecode.com/svn/trunk/gm_tmysql4_boost/Release/) dll file to your garrysmod/lua/bin directory, and [libmysql](http://dev.mysql.com/downloads/connector/cpp/) to your base directory (alongside srcds.exe). For libmysql, download the 32 bit ZIP file, even if you are using a 64 bit OS.
 * Place psdonation.lua in your pointshop addon's lua/pointshop/providers folder, configure psdonation.lua, and open pointshop's sh_config.lua to change the provider to "psdonation"
