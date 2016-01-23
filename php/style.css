@@ -1,0 +1,188 @@
+body {
+	background-color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+}
+
+#content {
+	background-color: #fdfdfd;
+	width: 960px;
+	padding: 20px;
+	padding-top: 0px;
+	border-radius: 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fixedamt {
+	width: 30%;
+	float: left;
+}
+
+.settableamt {
+	width: 40%;
+	float: left;
+}
+
+#header {
+	text-align: right;
+	overflow: hidden;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+h1 {
+	text-align: left;
+	font-family: "Open Sans Condensed",sans-serif;
+	text-decoration: none;
+	color: #bbbbbb;
+	font-size: 48pt;
+	margin-top: 0em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h1 img {
+	height: 80px;
+	padding-right: 10px;
+	position: relative;
+	top: 20px;
+}
+
+h2 {
+	font-family: "Open Sans",sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30pt;
+}
+
+h2:first-of-type {
+   	padding-top: 0.5em;
+}
+
+h3 {
+	font-family: "Open Sans Condensed",sans-serif;
+	text-align: center;
+	font-size: 28pt;
+	color: #777777;
+}
+
+div, p, input, button {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12pt;
+	color: black;
+	line-height: 135%;
+}
+
+p, .center {
+	text-align: center;
+}
+
+#content > p {
+	margin: 100px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+#content > #lognote {
+	clear:both;
+	margin: 0px;
+	padding: 50px;
+}
+
+#content > #footermessage {
+	margin: 0px;
+	padding: 20px;
+}
+
+.steambutton {
+	padding: 10px;
+}
+
+.reward {
+	font-family: "Open Sans Condensed",sans-serif;
+	font-weight: bolder;
+	color:#6ac100;
+	font-size:20pt;
+}
+
+.points {
+	font-size:24pt;
+	line-height:40pt;
+}
+
+input,button {
+	background-color:white;
+	border:2px solid gray;
+	border-radius:4px;
+	padding:3px;
+}
+
+button {
+	font-weight: bold;
+	padding-left:10px;
+	padding-right:10px;
+	cursor:pointer;
+}
+
+button:hover,input:hover {
+	border-color:#bbbbbb;
+}
+
+.blob {
+	overflow: hidden;
+	padding: 16px;
+	margin: 12px 20px;
+	background-color: #dddddd;
+	border-radius: 16px;
+}
+
+.steaminfo {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor:pointer;
+	padding:12px;
+}
+
+.steaminfo:hover {
+	border:2px solid gray;
+	padding:10px;
+}
+
+.steamavatar {
+	width:80px;
+	height:80px;
+	border:4px solid gray;
+	border-radius:8px;
+	float:left;
+}
+
+.steamname {
+	font-size:24pt;
+	font-weight:bold;
+	position:relative;
+	left:12px;
+	top:13px;
+}
+
+.steamdesc {
+	font-size:14pt;
+	position:relative;
+	left:12px;
+	top:23px;
+}
+
+.finalinfo {
+	/* alignment is inline */
+	font-size: 14pt;
+	line-height: 20pt;
+	text-align:left;
+	float:left;
+}
