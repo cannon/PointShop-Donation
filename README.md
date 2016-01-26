@@ -10,7 +10,7 @@ Sign in through Steam and see your own profile. No mucking about with Steam IDs!
 
 ---
 
-![Choose amount](http://i.imgur.com/4hrjOTW.png)
+![Choose amount](http://i.imgur.com/05UEJtL.png)
 
 Choose from 2 suggested amounts or enter your own amount to donate.
 
@@ -31,7 +31,7 @@ Are you ready to make money off your Garry's Mod server?
 
 * You need a web server with PHP and MySQL. I recommend XAMPP.
 
-* Your web server should also be HTTPS secured, to protect users against some man-in-the-middle attacks.
+* Your web server must be HTTPS secured, to protect users' payment data.
 
 * Put the contents of the 'php' folder into a directory named 'donate' in your web server's htdocs root.
 
